@@ -34,5 +34,6 @@ github내에 Https가 자동으로 작동하는것을 알게되었고, html, css
 
 
 Resume_form_Ngnix_ssL
+https://isbethere.github.io/Resume_form_Ngnix_ssL/
 
 
