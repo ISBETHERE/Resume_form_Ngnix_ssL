@@ -2,7 +2,7 @@
 # https://isbethere.github.io/Resume_form_Ngnix_ssL/
 
 ![ë__ - 116749_6](https://github.com/ISBETHERE/Resume_form_Ngnix_ssL/assets/103478919/7dc434d7-7b5c-49cf-a33d-641e00cd110f)
-![3_캡처6](https://github.com/ISBETHERE/Resume_form_Ngnix_ssL/assets/103478919/169d0062-352a-44bd-b933-abb49e74a095)
+![ë__ - 116749_7](https://github.com/ISBETHERE/Resume_form_Ngnix_ssL/assets/103478919/5f9b019e-6584-484f-a641-ac3a6d3f3f51)
 ![3_캡처5](https://github.com/ISBETHERE/Resume_form_Ngnix_ssL/assets/103478919/edf0237a-1586-4c07-b621-a8041c769b5b)
 ![ë__ - 116749_5](https://github.com/ISBETHERE/Resume_form_Ngnix_ssL/assets/103478919/d2df8ece-d0f4-4135-aa33-20312cd9b0ea)
 
