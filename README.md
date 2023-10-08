@@ -30,9 +30,6 @@ github내에 Https가 자동으로 작동하는것을 알게되었고, html, css
 ![캡처2](https://github.com/ISBETHERE/Resume_form_Ngnix_ssL/assets/103478919/19ed5bc2-5ced-42b4-acf5-4ee2f5cd7b1d)
 ![캡처3](https://github.com/ISBETHERE/Resume_form_Ngnix_ssL/assets/103478919/0fe538ad-602a-44ea-8ad1-b0751d9f59a7)
 
-## NGnix 설정 .Gif 파일 10mb용량 제한으로 화질이 저조합니다.
-
-![ngnix설정](https://github.com/ISBETHERE/Resume_form_Ngnix_ssL/assets/103478919/699a81c5-71bb-4745-be0e-ae3458215abd)
 
 
 
