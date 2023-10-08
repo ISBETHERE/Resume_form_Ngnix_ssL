@@ -424,3 +424,58 @@ ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syn
 2023/10/08 15:44:16 [emerg] 5824#6688: cannot load certificate "C:/path/to/cert.pem": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/path/to/cert.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
 2023/10/08 15:49:20 [warn] 7280#10532: server name "https://isbethere.github.io/Resume_form_Ngnix_ssL/" has suspicious symbols in C:\resume_expo\resume\nginx-1.24.0/conf/nginx.conf:19
 2023/10/08 15:49:20 [warn] 2900#10616: server name "https://isbethere.github.io/Resume_form_Ngnix_ssL/" has suspicious symbols in C:\resume_expo\resume\nginx-1.24.0/conf/nginx.conf:19
+2023/10/08 16:05:37 [error] 9076#9864: *55 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:08:05 [emerg] 8240#15516: cannot load certificate "C:/resume_expo/resume/nginx-1.24.0/csr.pem": PEM_read_bio_X509_AUX() failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: TRUSTED CERTIFICATE)
+2023/10/08 16:08:17 [emerg] 3796#1772: cannot load certificate "C:/resume_expo/resume/nginx-1.24.0/csr.pem": PEM_read_bio_X509_AUX() failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: TRUSTED CERTIFICATE)
+2023/10/08 16:08:59 [error] 9076#9864: *66 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:09:18 [emerg] 15940#13424: cannot load certificate "C:/resume_expo/resume/nginx-1.24.0/csr.pem": PEM_read_bio_X509_AUX() failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: TRUSTED CERTIFICATE)
+2023/10/08 16:11:01 [emerg] 11728#11696: cannot load certificate "C:/resume_expo/resume/nginx-1.24.0/csr.pem": PEM_read_bio_X509_AUX() failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: TRUSTED CERTIFICATE)
+2023/10/08 16:11:04 [emerg] 16104#8900: cannot load certificate "C:/resume_expo/resume/nginx-1.24.0/csr.pem": PEM_read_bio_X509_AUX() failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: TRUSTED CERTIFICATE)
+2023/10/08 16:11:09 [error] 9076#9864: *71 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:11:14 [error] 9076#9864: *71 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:13:00 [alert] 3716#7452: worker process 16316 exited with code C0000142
+2023/10/08 16:13:00 [alert] 3716#7452: could not respawn worker
+2023/10/08 16:14:00 [emerg] 12760#12764: cannot load certificate "C:/resume_expo/resume/nginx-1.24.0/csr.pem": PEM_read_bio_X509_AUX() failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: TRUSTED CERTIFICATE)
+2023/10/08 16:15:26 [emerg] 11664#5368: cannot load certificate "C:/resume_expo/resume/nginx-1.24.0/csr.pem": PEM_read_bio_X509_AUX() failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: TRUSTED CERTIFICATE)
+2023/10/08 16:17:53 [emerg] 5168#3420: cannot load certificate "C:/resume_expo/resume/nginx-1.24.0/csr.pem": PEM_read_bio_X509_AUX() failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: TRUSTED CERTIFICATE)
+2023/10/08 16:22:13 [warn] 11204#4984: conflicting server name "isbethere.github.io" on 0.0.0.0:80, ignored
+2023/10/08 16:22:13 [warn] 4968#13524: conflicting server name "isbethere.github.io" on 0.0.0.0:80, ignored
+2023/10/08 16:22:22 [error] 4968#9912: *7 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:22:43 [warn] 15228#7892: conflicting server name "isbethere.github.io" on 0.0.0.0:80, ignored
+2023/10/08 16:24:38 [error] 4968#9912: *12 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:25:17 [error] 4968#9912: *17 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:25:21 [error] 4968#9912: *22 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:25:58 [error] 4968#9912: *27 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:26:05 [warn] 1148#944: conflicting server name "isbethere.github.io" on 0.0.0.0:80, ignored
+2023/10/08 16:26:57 [error] 4968#9912: *32 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:27:28 [error] 4968#9912: *37 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:27:30 [error] 4968#9912: *42 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:29:03 [error] 4968#9912: *47 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:29:19 [warn] 10264#9496: conflicting server name "isbethere.github.io" on 0.0.0.0:80, ignored
+2023/10/08 16:29:19 [warn] 6856#6196: conflicting server name "isbethere.github.io" on 0.0.0.0:80, ignored
+2023/10/08 16:29:36 [error] 4968#9912: *47 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:29:37 [error] 4968#9912: *47 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:31:13 [crit] 4968#9912: *55 GetFileAttributesEx() "C:/resume_expo/"로" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET /%22%EB%A1%9C HTTP/1.1", host: "localhost:8099", referrer: "https://wrtn.ai/"
+2023/10/08 16:31:13 [crit] 4968#9912: *55 GetFileAttributesEx() "C:/resume_expo/"로" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET /%22%EB%A1%9C HTTP/1.1", host: "localhost:8099", referrer: "https://wrtn.ai/"
+2023/10/08 16:32:09 [warn] 4612#6756: conflicting server name "isbethere.github.io" on 0.0.0.0:80, ignored
+2023/10/08 16:32:12 [error] 4968#9912: *60 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:32:14 [error] 4968#9912: *60 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:32:17 [crit] 4968#9912: *55 GetFileAttributesEx() "C:/resume_expo/"로" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET /%22%EB%A1%9C HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:32:17 [crit] 4968#9912: *55 GetFileAttributesEx() "C:/resume_expo/"로" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET /%22%EB%A1%9C HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:32:39 [error] 4968#9912: *69 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:32:58 [error] 4968#9912: *77 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:33:14 [error] 4968#9912: *77 directory index of "C:/resume_expo/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:34:44 [warn] 15340#15344: conflicting server name "isbethere.github.io" on 0.0.0.0:80, ignored
+2023/10/08 16:34:44 [warn] 14412#14428: conflicting server name "isbethere.github.io" on 0.0.0.0:80, ignored
+2023/10/08 16:35:41 [crit] 14412#12712: *9 GetFileAttributesEx() "C:/resume_expo/C:/resume_expo/resume/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:36:20 [crit] 14412#12712: *14 GetFileAttributesEx() "C:/resume_expo/"로" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET /%22%EB%A1%9C HTTP/1.1", host: "localhost:8099", referrer: "https://wrtn.ai/"
+2023/10/08 16:36:20 [crit] 14412#12712: *14 GetFileAttributesEx() "C:/resume_expo/"로" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET /%22%EB%A1%9C HTTP/1.1", host: "localhost:8099", referrer: "https://wrtn.ai/"
+2023/10/08 16:36:23 [crit] 14412#12712: *14 GetFileAttributesEx() "C:/resume_expo/C:/resume_expo/resume/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:37:50 [warn] 11828#1896: conflicting server name "isbethere.github.io" on 0.0.0.0:80, ignored
+2023/10/08 16:37:50 [warn] 15064#5516: conflicting server name "isbethere.github.io" on 0.0.0.0:80, ignored
+2023/10/08 16:37:54 [crit] 14412#12712: *19 GetFileAttributesEx() "C:/resume_expo/C:/resume_expo/resume/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/10/08 16:42:13 [warn] 10696#11676: conflicting server name "isbethere.github.io" on 0.0.0.0:80, ignored
+2023/10/08 16:42:13 [notice] 10696#11676: signal process started
+2023/10/08 16:42:13 [error] 10696#11676: OpenEvent("Global\ngx_stop_11828") failed (2: The system cannot find the file specified)
+2023/10/08 16:42:27 [warn] 740#7396: conflicting server name "isbethere.github.io" on 0.0.0.0:80, ignored
+2023/10/08 17:01:15 [warn] 3220#5692: conflicting server name "isbethere.github.io" on 0.0.0.0:80, ignored
