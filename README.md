@@ -22,7 +22,9 @@ https://isbethere.github.io/Resume_form_Ngnix_ssL/
 
 
 
-github내에 Https가 자동으로 작동하는것을 알게되었고, html, css, js 를 활용하여 
+github내에 Https가 자동으로 작동하는것을 알게되었고, 
+
+html, css, js 를 활용하여 
 이력서 폼을 만들어 보면서 html, css, js에 많은 공부가 되었습니다.
 
 ## NGnix 설정화면을 캡쳐하였습니다.
