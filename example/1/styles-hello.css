@@ -1,0 +1,22 @@
+div.backgroundgif{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('./image/Back.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.text-overlay {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    transform: translateY(-30%);
+    text-align: center;
+    color: #ffffff; /* 원하는 색상을 지정하세요. */
+    font-size: 120px; /* 원하는 폰트 크기를 지정하세요. */
+  
+}
+

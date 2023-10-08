@@ -1,0 +1,407 @@
+2023/08/02 12:53:16 [error] 1976#7276: *1 CreateFile() "C:\asac_code\nginx-1.24.0/html/'로" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /'%EB%A1%9C HTTP/1.1", host: "localhost"
+2023/08/02 12:53:16 [error] 1976#7276: *1 CreateFile() "C:\asac_code\nginx-1.24.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/'%EB%A1%9C"
+2023/08/02 12:53:42 [notice] 17324#20136: signal process started
+2023/08/02 12:58:22 [error] 1976#7276: *3 CreateFile() "C:\asac_code\nginx-1.24.0/html/8080" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /8080 HTTP/1.1", host: "localhost"
+2023/08/02 12:58:30 [error] 1976#7276: *3 CreateFile() "C:\asac_code\nginx-1.24.0/html/8080" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /8080 HTTP/1.1", host: "localhost"
+2023/08/02 14:00:24 [error] 11296#1576: *1 CreateFile() "C:\asac_code\nginx-1.24.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/08/02 14:26:13 [emerg] 6548#3452: invalid number of arguments in "root" directive in C:\asac_code\nginx-1.24.0/conf/nginx.conf:38
+2023/08/02 14:27:17 [emerg] 17676#17680: invalid number of arguments in "root" directive in C:\asac_code\nginx-1.24.0/conf/nginx.conf:38
+2023/08/02 14:28:33 [notice] 17648#15864: signal process started
+2023/08/02 14:28:40 [crit] 13204#17680: *11 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:28:40 [crit] 13204#17680: *12 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:28:40 [crit] 13204#17680: *13 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:28:47 [crit] 13204#17680: *14 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:28:47 [crit] 13204#17680: *15 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:29:26 [notice] 18380#18404: signal process started
+2023/08/02 14:29:28 [crit] 13204#17680: *16 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:29:28 [crit] 9448#13928: *17 CreateFile() "C:\asac_code
+ginx-1.24.0\html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:29:29 [crit] 9448#13928: *18 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:29:29 [crit] 9448#13928: *19 CreateFile() "C:\asac_code
+ginx-1.24.0\html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:29:29 [crit] 9448#13928: *20 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:29:29 [crit] 9448#13928: *21 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:29:29 [crit] 9448#13928: *22 CreateFile() "C:\asac_code
+ginx-1.24.0\html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:29:34 [notice] 18108#18056: signal process started
+2023/08/02 14:29:36 [crit] 9448#13928: *23 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:29:37 [crit] 9448#13928: *24 CreateFile() "C:\asac_code
+ginx-1.24.0\html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:29:37 [crit] 18152#18120: *25 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:29:37 [crit] 18152#18120: *26 CreateFile() "C:\asac_code
+ginx-1.24.0\html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:29:38 [crit] 18152#18120: *27 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:29:38 [crit] 18152#18120: *28 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:29:38 [crit] 18152#18120: *29 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:29:38 [crit] 18152#18120: *30 CreateFile() "C:\asac_code
+ginx-1.24.0\html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:30:03 [notice] 17504#18184: signal process started
+2023/08/02 14:30:04 [crit] 18152#18120: *31 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:30:04 [crit] 18152#18120: *32 CreateFile() "C:\asac_code
+ginx-1.24.0\html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:30:05 [crit] 8824#17660: *33 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:30:05 [crit] 8824#17660: *34 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:30:06 [crit] 8824#17660: *35 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:30:06 [crit] 8824#17660: *36 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:33:19 [notice] 2932#12812: signal process started
+2023/08/02 14:33:32 [crit] 10168#15464: *37 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:33:32 [crit] 10168#15464: *38 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:33:32 [crit] 10168#15464: *39 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:33:38 [crit] 10168#15464: *40 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:33:38 [crit] 10168#15464: *41 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:34:06 [crit] 10168#15464: *42 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:34:06 [crit] 10168#15464: *43 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:34:07 [crit] 10168#15464: *44 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:34:07 [crit] 10168#15464: *45 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:34:13 [crit] 10168#15464: *46 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:34:14 [crit] 10168#15464: *47 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:34:14 [crit] 10168#15464: *48 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:34:19 [notice] 17784#16388: signal process started
+2023/08/02 14:34:21 [crit] 10168#15464: *49 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:34:21 [crit] 12384#14200: *50 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:34:22 [crit] 12384#14200: *51 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:34:22 [crit] 12384#14200: *52 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:34:22 [crit] 12384#14200: *53 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:34:23 [crit] 12384#14200: *54 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:34:24 [crit] 12384#14200: *55 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:34:24 [crit] 12384#14200: *56 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:34:53 [notice] 8824#17740: signal process started
+2023/08/02 14:34:56 [crit] 12384#14200: *57 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:34:56 [crit] 17532#17484: *58 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:34:58 [crit] 17532#17484: *59 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:34:58 [crit] 17532#17484: *60 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:38:38 [notice] 18176#15760: signal process started
+2023/08/02 14:38:42 [crit] 17544#18024: *62 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:38:42 [crit] 17544#18024: *63 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:38:42 [crit] 17544#18024: *64 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:38:43 [crit] 17544#18024: *65 CreateFile() "C:\asac_code
+ginx-1.24.0\html\index.html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:41:01 [notice] 17620#17736: signal process started
+2023/08/02 14:41:05 [crit] 15140#10352: *66 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:41:06 [crit] 15140#10352: *67 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:41:06 [crit] 15140#10352: *68 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:41:07 [crit] 15140#10352: *69 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:41:08 [crit] 15140#10352: *70 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:41:14 [crit] 15140#10352: *71 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:41:15 [crit] 15140#10352: *72 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:41:40 [crit] 15140#10352: *73 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:41:40 [crit] 15140#10352: *74 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:45:40 [notice] 8336#16972: signal process started
+2023/08/02 14:45:45 [crit] 15988#17840: *76 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:45:45 [crit] 15988#17840: *77 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:45:49 [crit] 15988#17840: *78 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:45:49 [crit] 15988#17840: *79 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:45:49 [crit] 15988#17840: *80 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:46:23 [crit] 15988#17840: *83 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html\index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:48:37 [notice] 19052#19056: signal process started
+2023/08/02 14:48:41 [crit] 18028#18800: *86 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:48:57 [notice] 18640#12136: signal process started
+2023/08/02 14:49:00 [crit] 18028#18800: *88 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:49:01 [crit] 18324#7776: *89 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:49:01 [crit] 18324#7776: *90 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:49:01 [crit] 18324#7776: *91 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:49:11 [notice] 10964#18908: signal process started
+2023/08/02 14:49:14 [crit] 18324#7776: *93 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:49:24 [crit] 17796#9060: *95 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:51:43 [notice] 17512#5972: signal process started
+2023/08/02 14:51:46 [crit] 18084#19020: *98 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:51:46 [crit] 18084#19020: *99 CreateFile() "C:\asac_code
+ginx-1.24.0\html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:51:55 [crit] 18084#19020: *100 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 14:51:55 [crit] 18084#19020: *101 CreateFile() "C:\asac_code
+ginx-1.24.0\html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 14:58:27 [notice] 17016#13240: signal process started
+2023/08/02 14:58:40 [crit] 18676#19384: *103 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 15:01:20 [notice] 18420#18752: signal process started
+2023/08/02 15:01:25 [crit] 6988#16324: *106 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 15:01:56 [notice] 11988#8700: signal process started
+2023/08/02 15:02:02 [crit] 6988#16324: *108 GetFileAttributesEx() "C:\asac_code
+ginx-1.24.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: seol-lee-bun, request: "GET / HTTP/1.1", host: "localhost:8099"
+2023/08/02 15:02:43 [notice] 9884#16996: signal process started
+2023/08/02 15:05:21 [notice] 16996#12732: signal process started
+2023/08/02 15:07:45 [notice] 19116#18928: signal process started
+2023/08/02 15:09:37 [notice] 18968#14804: signal process started
+2023/08/02 15:19:01 [notice] 8760#1676: signal process started
+2023/08/02 15:19:06 [notice] 20400#20396: signal process started
+2023/08/02 15:24:21 [notice] 19104#16556: signal process started
+2023/08/02 15:24:24 [notice] 5768#2400: signal process started
+2023/08/02 15:35:45 [emerg] 15484#6344: "server" directive is not allowed here in C:\asac_code\nginx-1.24.0/conf/nginx.conf:62
+2023/08/02 15:35:48 [emerg] 17736#16100: "server" directive is not allowed here in C:\asac_code\nginx-1.24.0/conf/nginx.conf:62
+2023/08/02 15:36:02 [notice] 5488#9972: signal process started
+2023/08/02 15:36:55 [notice] 18200#764: signal process started
+2023/08/02 15:39:22 [notice] 7136#15440: signal process started
+2023/08/02 15:42:39 [notice] 5488#2860: signal process started
+2023/08/02 15:42:50 [notice] 12720#1988: signal process started
+2023/08/02 15:43:02 [notice] 20392#10756: signal process started
+2023/08/02 15:43:06 [notice] 6448#9040: signal process started
+2023/08/02 15:43:58 [notice] 7872#20256: signal process started
+2023/08/02 15:44:22 [notice] 15740#11620: signal process started
+2023/08/02 15:45:41 [emerg] 17764#7140: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:6
+2023/08/02 15:46:00 [emerg] 10280#12784: no "events" section in configuration
+2023/08/02 15:46:26 [notice] 13576#7344: signal process started
+2023/08/02 15:46:29 [notice] 492#8464: signal process started
+2023/08/02 15:46:31 [notice] 12624#14728: signal process started
+2023/08/02 15:47:38 [notice] 20008#19968: signal process started
+2023/08/02 15:47:41 [notice] 12940#2368: signal process started
+2023/08/02 15:54:19 [emerg] 7140#8804: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:6
+2023/08/02 15:54:28 [emerg] 20212#11224: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:6
+2023/08/02 15:55:09 [emerg] 3720#18632: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:6
+2023/08/02 15:57:09 [emerg] 16016#11268: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:5
+2023/08/02 15:57:55 [emerg] 8092#18332: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:5
+2023/08/02 15:58:03 [emerg] 16496#7224: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:5
+2023/08/02 15:59:05 [emerg] 17196#4168: unknown directive "nginx" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:2
+2023/08/02 15:59:17 [emerg] 10284#8412: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:6
+2023/08/02 15:59:38 [emerg] 17392#17188: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:7
+2023/08/02 16:02:45 [emerg] 2800#15504: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:7
+2023/08/02 16:03:02 [emerg] 6368#9408: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:7
+2023/08/02 16:03:07 [emerg] 3548#15436: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:7
+2023/08/02 16:03:29 [emerg] 3340#10224: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:7
+2023/08/02 16:04:18 [emerg] 16944#9408: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:7
+2023/08/02 16:04:28 [emerg] 19852#17084: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:7
+2023/08/02 16:05:00 [emerg] 11628#10124: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:7
+2023/08/02 16:08:44 [emerg] 9548#9376: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:7
+2023/08/02 16:09:01 [emerg] 7416#3068: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:7
+2023/08/02 16:10:08 [emerg] 11200#16396: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:7
+2023/08/02 16:12:57 [emerg] 13044#6532: unexpected "}" in C:\asac_code\nginx-1.24.0/conf/nginx.conf:7
+2023/08/02 16:18:29 [notice] 1984#17352: signal process started
+2023/08/02 16:20:08 [notice] 6824#508: signal process started
+2023/08/02 16:22:46 [error] 12692#14760: *1 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/08/02 16:24:20 [notice] 5020#11820: signal process started
+2023/08/02 16:24:27 [error] 11852#6224: *4 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 16:44:54 [error] 11852#6224: *13 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 16:57:13 [notice] 15396#7284: signal process started
+2023/08/02 16:57:28 [error] 15296#4916: *19 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/02 17:00:10 [notice] 5792#17120: signal process started
+2023/08/02 17:39:23 [error] 10248#13932: *55 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 09:27:05 [error] 15564#15496: *1 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:07:39 [error] 15564#15496: *3 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:12:21 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:12:23 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:12:25 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:13:18 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:13:19 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:13:27 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:13:46 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:13:46 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:13:46 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:13:47 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:13:50 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:13:57 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:14:19 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:14:38 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:14:38 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:14:38 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:14:39 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:14:52 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:14:53 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:14:53 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:14:53 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:14:54 [error] 15564#15496: *5 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:18:09 [error] 15564#15496: *9 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:18:29 [error] 15564#15496: *9 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:18:30 [error] 15564#15496: *9 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:18:30 [error] 15564#15496: *9 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:18:30 [error] 15564#15496: *9 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:18:30 [error] 15564#15496: *9 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:18:30 [error] 15564#15496: *9 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:18:30 [error] 15564#15496: *9 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:18:42 [error] 15564#15496: *9 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:18:43 [error] 15564#15496: *9 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:18:43 [error] 15564#15496: *9 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:18:43 [error] 15564#15496: *9 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:18:43 [error] 15564#15496: *9 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:18:43 [error] 15564#15496: *9 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:20:23 [error] 15564#15496: *11 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:20:35 [error] 15564#15496: *11 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:20:46 [error] 15564#15496: *11 CreateFile() "C:/asac_code/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:39:11 [error] 15564#15496: *26 CreateFile() "C:/asac_code/_next/static/css/2c4f48c19566a6ff54d8.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /_next/static/css/2c4f48c19566a6ff54d8.css HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:39:11 [error] 15564#15496: *26 CreateFile() "C:/asac_code/_next/static/chunks/10.af52389e42ed21c8ac4f.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /_next/static/chunks/10.af52389e42ed21c8ac4f.js HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:39:11 [error] 15564#15496: *26 CreateFile() "C:/asac_code/_next/static/chunks/main-7897b36f4741bc4262db.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /_next/static/chunks/main-7897b36f4741bc4262db.js HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:39:11 [error] 15564#15496: *26 CreateFile() "C:/asac_code/_next/static/chunks/webpack-a3510c8eabe9f35d18be.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /_next/static/chunks/webpack-a3510c8eabe9f35d18be.js HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:39:11 [error] 15564#15496: *26 CreateFile() "C:/asac_code/_next/static/chunks/framework.36e5d30ecc6dc4b81c51.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /_next/static/chunks/framework.36e5d30ecc6dc4b81c51.js HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:39:11 [error] 15564#15496: *26 CreateFile() "C:/asac_code/_next/static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.a4d2940acd6a65e527ff.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /_next/static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.a4d2940acd6a65e527ff.js HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:39:11 [error] 15564#15496: *26 CreateFile() "C:/asac_code/_next/static/chunks/71247caf95475e3ea7f9a0f8a30beb258b23d005.006d5c23f88a406f25fe.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /_next/static/chunks/71247caf95475e3ea7f9a0f8a30beb258b23d005.006d5c23f88a406f25fe.js HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:39:11 [error] 15564#15496: *26 CreateFile() "C:/asac_code/_next/static/chunks/pages/_app-83c024d2cd808ed4f856.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /_next/static/chunks/pages/_app-83c024d2cd808ed4f856.js HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:39:11 [error] 15564#15496: *26 CreateFile() "C:/asac_code/_next/static/chunks/ea88be26.9a43468953f1708ec5b8.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /_next/static/chunks/ea88be26.9a43468953f1708ec5b8.js HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:39:11 [error] 15564#15496: *26 CreateFile() "C:/asac_code/_next/static/chunks/pages/index-ad89055087d58db9ef2d.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /_next/static/chunks/pages/index-ad89055087d58db9ef2d.js HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:39:11 [error] 15564#15496: *26 CreateFile() "C:/asac_code/_next/static/kUuhfFdJ8TuhkjJ8IXk23/_buildManifest.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /_next/static/kUuhfFdJ8TuhkjJ8IXk23/_buildManifest.js HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:39:11 [error] 15564#15496: *26 CreateFile() "C:/asac_code/_next/static/kUuhfFdJ8TuhkjJ8IXk23/_ssgManifest.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /_next/static/kUuhfFdJ8TuhkjJ8IXk23/_ssgManifest.js HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 10:39:11 [error] 15564#15496: *26 CreateFile() "C:/asac_code/memoji.svg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /memoji.svg HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 11:04:07 [notice] 18332#21512: signal process started
+2023/08/03 11:09:15 [error] 16588#13812: *1 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 11:14:12 [error] 16588#13812: *3 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 11:15:22 [error] 16588#13812: *3 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 11:16:08 [error] 16588#13812: *3 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 11:16:09 [error] 16588#13812: *3 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 11:16:11 [error] 16588#13812: *3 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 11:18:17 [error] 16588#13812: *7 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 11:25:32 [error] 16588#13812: *13 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 11:30:04 [error] 16588#13812: *15 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 11:30:15 [error] 16588#13812: *15 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 12:46:03 [error] 16588#13812: *19 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 12:46:15 [error] 16588#13812: *19 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 12:46:43 [notice] 13224#12208: signal process started
+2023/08/03 12:47:44 [error] 16588#13812: *24 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 12:47:49 [error] 16588#13812: *24 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099"
+2023/08/03 12:56:24 [error] 16588#13812: *27 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 12:59:44 [notice] 3468#2404: signal process started
+2023/08/03 12:59:50 [error] 16588#13812: *30 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 13:00:05 [error] 16588#13812: *30 CreateFile() "C:/asac_code/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8099", referrer: "http://localhost:8099/"
+2023/08/03 13:08:22 [notice] 9868#9604: signal process started
+2023/08/03 13:18:05 [notice] 4652#10540: signal process started
+2023/08/03 13:18:16 [notice] 7500#9556: signal process started
+2023/08/03 13:38:06 [notice] 14212#2156: signal process started
+2023/08/03 14:44:46 [notice] 5708#4584: signal process started
+2023/08/03 14:48:58 [notice] 7400#16560: signal process started
+2023/08/03 15:08:07 [notice] 7872#16208: signal process started
+2023/08/03 15:09:35 [notice] 15964#924: signal process started
+2023/08/03 15:10:20 [notice] 11976#9836: signal process started
+2023/08/03 15:11:43 [notice] 18296#11940: signal process started
+2023/10/08 12:43:31 [emerg] 19888#3136: cannot load certificate "C:/path/to/certificate.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/path/to/certificate.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/08 12:43:32 [emerg] 10692#21556: cannot load certificate "C:/path/to/certificate.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/path/to/certificate.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/08 12:43:36 [emerg] 11100#20660: cannot load certificate "C:/path/to/certificate.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/path/to/certificate.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/08 12:45:30 [emerg] 1404#24544: cannot load certificate "C:/path/to/certificate.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/path/to/certificate.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/08 13:20:57 [emerg] 14440#9144: cannot load certificate "C:/path/to/certificate.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/path/to/certificate.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/08 13:32:30 [emerg] 19004#5572: cannot load certificate "C:/path/to/certificate.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/path/to/certificate.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/08 13:32:34 [emerg] 24920#15132: cannot load certificate "C:/path/to/certificate.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/path/to/certificate.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/08 13:35:21 [emerg] 23764#13136: cannot load certificate "C:/path/to/certificate.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/path/to/certificate.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/08 13:35:58 [emerg] 16796#3836: cannot load certificate "C:/path/to/certificate.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/path/to/certificate.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/08 13:37:07 [emerg] 21152#9700: cannot load certificate "C:/path/to/certificate.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/path/to/certificate.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/08 13:39:30 [emerg] 21120#2624: cannot load certificate "C:/path/to/certificate.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/path/to/certificate.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/08 13:41:32 [notice] 13044#17092: signal process started
+2023/10/08 13:41:32 [error] 13044#17092: OpenEvent("Global\ngx_reload_17500") failed (2: The system cannot find the file specified)
+2023/10/08 13:41:57 [emerg] 9188#23496: CreateDirectory() "C:\asac_code\resume\nginx-1.24.0/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2023/10/08 13:43:38 [emerg] 12956#17228: CreateDirectory() "C:\asac_code\resume\nginx-1.24.0/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2023/10/08 13:45:25 [emerg] 21916#16676: CreateDirectory() "C:\asac_code\resume\nginx-1.24.0/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2023/10/08 13:45:29 [notice] 13916#14652: signal process started
+2023/10/08 13:45:29 [error] 13916#14652: OpenEvent("Global\ngx_reload_17500") failed (2: The system cannot find the file specified)
+2023/10/08 13:46:25 [emerg] 22680#7088: cannot load certificate key "C:/asac_code/resume/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 13:48:15 [emerg] 19104#9516: cannot load certificate key "C:/asac_code/resume/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 13:50:48 [emerg] 1432#8220: cannot load certificate key "C:/asac_code/resume/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 13:52:45 [emerg] 22976#23592: cannot load certificate key "C:/asac_code/resume/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 13:53:10 [emerg] 24604#15004: cannot load certificate key "C:/asac_code/resume/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 13:53:38 [emerg] 12536#17488: cannot load certificate key "C:/asac_code/resume/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 13:53:53 [emerg] 760#12436: cannot load certificate key "C:/asac_code/resume/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 13:54:07 [emerg] 11180#13616: cannot load certificate key "C:/asac_code/resume/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 13:57:03 [notice] 24780#2148: signal process started
+2023/10/08 13:57:03 [error] 24780#2148: OpenEvent("Global\ngx_reload_17500") failed (2: The system cannot find the file specified)
+2023/10/08 13:58:13 [notice] 10116#20084: signal process started
+2023/10/08 13:58:13 [error] 10116#20084: OpenEvent("Global\ngx_reload_17500") failed (2: The system cannot find the file specified)
+2023/10/08 13:58:27 [emerg] 12224#16264: CreateDirectory() "C:\asac_code\resume\nginx-1.24.0/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2023/10/08 13:58:38 [notice] 20572#8760: signal process started
+2023/10/08 13:58:38 [error] 20572#8760: OpenEvent("Global\ngx_reload_17500") failed (2: The system cannot find the file specified)
+2023/10/08 13:58:57 [emerg] 4408#13212: CreateDirectory() "C:\asac_code\resume\nginx-1.24.0/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2023/10/08 13:59:14 [emerg] 12980#24940: cannot load certificate key "C:/asac_code/resume/nginx-1.24.0/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 13:59:23 [notice] 18172#1372: signal process started
+2023/10/08 13:59:23 [error] 18172#1372: OpenEvent("Global\ngx_stop_17500") failed (2: The system cannot find the file specified)
+2023/10/08 14:00:59 [emerg] 14516#14520: CreateDirectory() "C:\asac_code\resume\nginx-1.24.0/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2023/10/08 14:01:50 [emerg] 13472#1648: CreateDirectory() "C:\asac_code\resume\nginx-1.24.0/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2023/10/08 14:02:31 [emerg] 16292#16340: cannot load certificate key "C:/asac_code/resume/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 14:03:08 [emerg] 7276#16248: cannot load certificate key "C:/asac_code/resume/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 14:04:02 [emerg] 14276#13288: cannot load certificate key "C:/asac_code/resume/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 14:04:25 [emerg] 3092#5516: cannot load certificate key "C:/asac_code/resume/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 14:09:35 [emerg] 16096#11204: CreateDirectory() "C:\asac_code\resume\nginx-1.24.0/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2023/10/08 14:09:41 [notice] 15156#16128: signal process started
+2023/10/08 14:09:41 [error] 15156#16128: OpenEvent("Global\ngx_reload_17500") failed (2: The system cannot find the file specified)
+2023/10/08 14:10:55 [emerg] 6416#15948: CreateDirectory() "C:\asac_code\resume\nginx-1.24.0/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2023/10/08 14:12:37 [emerg] 7352#14028: CreateDirectory() "C:\asac_code\resume\nginx-1.24.0/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2023/10/08 14:13:13 [notice] 5744#1008: signal process started
+2023/10/08 14:13:13 [error] 5744#1008: OpenEvent("Global\ngx_reload_17500") failed (2: The system cannot find the file specified)
+2023/10/08 14:14:22 [notice] 3460#16136: signal process started
+2023/10/08 14:14:22 [error] 3460#16136: OpenEvent("Global\ngx_reload_17500") failed (2: The system cannot find the file specified)
+2023/10/08 14:14:40 [emerg] 14240#1756: CreateDirectory() "C:\asac_code\resume\nginx-1.24.0/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2023/10/08 14:15:50 [emerg] 16104#7624: cannot load certificate key "C:/asac_code/resume/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 14:16:29 [emerg] 7956#8344: cannot load certificate key "C:/asac_code/resume/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 14:18:23 [emerg] 14464#10460: cannot load certificate key "C:/asac_code/resume/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 14:19:47 [emerg] 1348#8472: CreateDirectory() "C:\asac_code\resume\nginx-1.24.0/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2023/10/08 14:23:35 [alert] 14464#3548: the event "ngx_master_14464" was not signaled for 5s
+2023/10/08 14:23:42 [notice] 5024#1676: signal process started
+2023/10/08 14:23:42 [error] 5024#1676: OpenEvent("Global\ngx_reload_14464") failed (2: The system cannot find the file specified)
+2023/10/08 14:24:46 [emerg] 4732#7812: cannot load certificate key "C:/asac_code/resume/nginx-1.24.0/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 14:25:29 [notice] 8332#10968: signal process started
+2023/10/08 14:25:29 [error] 8332#10968: OpenEvent("Global\ngx_stop_14464") failed (2: The system cannot find the file specified)
+2023/10/08 14:25:41 [alert] 8680#10504: the event "ngx_master_8680" was not signaled for 5s
+2023/10/08 14:27:08 [emerg] 9372#1944: cannot load certificate key "C:/asac_code/resume/nginx-1.24.0/key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2023/10/08 14:27:41 [alert] 488#10220: the event "ngx_master_488" was not signaled for 5s
+2023/10/08 14:29:14 [notice] 10512#12156: signal process started
+2023/10/08 14:29:14 [error] 10512#12156: OpenEvent("Global\ngx_stop_488") failed (2: The system cannot find the file specified)
+2023/10/08 14:37:28 [alert] 13832#13964: the event "ngx_master_13832" was not signaled for 5s
+2023/10/08 14:41:17 [notice] 6948#10388: signal process started
+2023/10/08 14:41:17 [error] 6948#10388: OpenEvent("Global\ngx_reload_13832") failed (2: The system cannot find the file specified)
+2023/10/08 14:41:32 [notice] 13128#4076: signal process started
+2023/10/08 14:41:32 [error] 13128#4076: OpenEvent("Global\ngx_stop_13832") failed (2: The system cannot find the file specified)
+2023/10/08 14:44:40 [alert] 13108#14564: the event "ngx_master_13108" was not signaled for 5s
+2023/10/08 14:45:17 [alert] 13320#936: the event "ngx_master_13320" was not signaled for 5s
+2023/10/08 14:45:55 [alert] 2772#2768: the event "ngx_master_2772" was not signaled for 5s
