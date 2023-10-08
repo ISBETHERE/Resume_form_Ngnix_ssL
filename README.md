@@ -28,6 +28,8 @@ html, css, js 를 활용하여
 이력서 폼을 만들어 보면서 html, css, js에 많은 공부가 되었습니다.
 
 ## NGnix 설정화면을 캡쳐하였습니다.
+![캡처7](https://github.com/ISBETHERE/Resume_form_Ngnix_ssL/assets/103478919/70ab7f48-5f1a-458a-941d-df4d5b268ec3)
+
 
 ![캡처2](https://github.com/ISBETHERE/Resume_form_Ngnix_ssL/assets/103478919/19ed5bc2-5ced-42b4-acf5-4ee2f5cd7b1d)
 ![캡처3](https://github.com/ISBETHERE/Resume_form_Ngnix_ssL/assets/103478919/0fe538ad-602a-44ea-8ad1-b0751d9f59a7)
